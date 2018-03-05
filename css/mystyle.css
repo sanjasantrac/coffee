@@ -1,0 +1,337 @@
+*{
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+
+h1{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 50px;
+}
+h2{
+	font-size: 40px;
+	font-family: 'Montserrat',sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+}
+a{
+	text-decoration: none;
+	color: #646464;
+}
+/******HEADER*********/
+.mobile-nav{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+}
+.mobile-nav img{
+	width: 140px;
+	height: 120px;
+	
+}
+.mobile-nav ul{
+	display: none;
+}
+.fa-bars{
+	font-size: 50px;
+	color: #646464;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.hero{
+	background-image: url("../photos/hero4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: inherit;
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.hero h1{
+	display: none;
+	width: 40%;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 80px;
+	color: #331a13;
+	opacity: .5;
+	
+	
+}
+span.hero-overlay{
+	opacity: .8!important;
+	color: #3a0808;
+	font-size: 100px;
+}
+.content{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.describe p{
+	width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    line-height: 40px;
+    text-align: center;
+	font-size: 18px;
+	font-family: 'Montserrat',sans-serif;
+	font-style: italic;
+	color: #242424;
+	padding-bottom:50px;
+
+}
+.describe hr{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #242424;
+}
+
+.cappio{
+	
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.cappio img{
+	width: 350px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	
+}
+.cappio div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.cappio h2{
+	width: 60%;
+	padding-top: 20px;
+}
+.cappio p{
+	width: 50%;
+    padding-top: 50px;
+    line-height: 30px;
+    text-align: left;
+	font-size: 16px;
+	font-family: 'Montserrat',sans-serif;
+	font-style: normal;
+	color: #242424;
+	padding-bottom:110px;
+	float: right;
+
+
+}
+.recipeh2{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+
+}
+.recipeh2 img{
+	align-self: flex-end;
+	width: 50%;
+	
+}
+.recipeh2 h2{
+	padding:40px 0;
+	text-align: center;
+}
+.recipe{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.ingredient{
+	display: flex;
+	flex-direction: column;
+}
+.ingredient img{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border:5px solid #eee;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.ingredient h4{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #5b3225;
+
+}
+.ingredient p{
+	font-size: 16px;
+	line-height: 20px;
+	width: 70%;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+}
+.place{
+	background: url("../photos/grainc.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60vh;
+	display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.place section{
+	width: 80%;
+	background: #edcfc9;
+	opacity: .9;
+	padding:20px 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.place h2{
+	font-size: 40px;
+	font-family: 'Montserrat',sans-serif;
+	text-align: center;
+	color: white;
+	
+}
+.place p{
+	width: 70%;
+    margin: auto;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: 'Montserrat',sans-serif;
+	font-style: normal;
+	color: #242424;
+	color: white;
+
+	
+}
+.espresso{
+	display: flex;
+	flex-direction: column;
+}
+.white{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	order: 2;
+	justify-content: center;
+
+}
+.white p{
+	width: 70%;
+	height: 250px;
+    margin: auto;
+	line-height: 40px;
+	font-size: 16px;
+	font-family: 'Montserrat',sans-serif;
+	font-style: normal;
+	color: #242424;
+	text-align: center;
+}
+.black{
+	background: url("../photos/espresso.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+footer{
+	margin-top: 20px;
+	height: 20px;
+	
+}
+footer p{
+	font-size: 12px;
+	margin: 0;
+	font-family: 'Montserrat',sans-serif;
+	text-align: center;
+}
+footer i{
+	color: #646464;
+}
+
+@media only screen and (min-width: 776px){
+	.hero{
+		height: 80vh;
+
+	}
+	
+	.place{
+		height: 80vh;
+		text-align: justify;
+	}
+	.place section{
+		width: 80%;
+		height: 500px;
+	}
+	
+}
+
+@media only screen and (min-width: 993px){
+	.hero{
+		height: 100vh;
+		align-items: flex-end;
+	}
+	.cappio{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.cappio div{
+		align-items: flex-end;
+	}
+	.content img{
+		left: 0;
+	}
+	.recipe{
+		flex-direction: row;
+	}
+	.place section{
+		width: 60%;
+		height: auto;
+	}
+	.place p{
+		line-height: 25px;
+	}
+
+	.espresso{
+
+	flex-direction: row;
+}
+	.white{
+		width: 50%;
+
+
+
+	}
+	.black{
+		width: 50%;
+		height: 400px;
+		order: 2;
+	}
+
+}
